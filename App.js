@@ -4,7 +4,7 @@ import MyForm from './MyForm';
 
 function App() {
   useEffect(() => {
-    document.title = "Credit Request"; // تغيير العنوان هنا
+    document.title = "Credit Request"; 
   }, []); // 
 
 
