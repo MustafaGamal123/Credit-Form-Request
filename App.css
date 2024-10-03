@@ -12,99 +12,97 @@ body {
   background-color: #f9f9f9;
 }
 
-/* تنسيق الـ option */
 .select-style option {
   padding: 10px;
   font-size: 16px;
 }
- /* styles.css */
 .modal-overlay {
-  position: fixed; /* تأمين العنصر في موضع ثابت */
-  top: 0; /* من أعلى الصفحة */
-  left: 0; /* من يسار الصفحة */
-  width: 100%; /* عرض كامل الصفحة */
-  height: 100%; /* ارتفاع كامل الصفحة */
-  background-color: rgba(0, 0, 0, 0.5); /* خلفية شفافة */
-  display: flex; /* استخدام الفليكس لجعل العناصر في المنتصف */
-  justify-content: center; /* توسيط أفقي */
-  align-items: center; /* توسيط عمودي */
-  z-index: 999; /* تأكد من أن العنصر فوق العناصر الأخرى */
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%; 
+  background-color: rgba(0, 0, 0, 0.5); 
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  z-index: 999; 
 }
 
 .modal-content {
-  background: white; /* خلفية العنصر */
-  padding: 20px; /* تباعد داخل العنصر */
-  border-radius: 8px; /* زوايا مدورة */
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* ظل لجعل العنصر يبرز */
-  text-align: center; /* محاذاة النص في الوسط */
+  background: white; 
+  padding: 20px; 
+  border-radius: 8px; 
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+  text-align: center; /* محاذاة النص في الوسط 
 }
 
 .jan {
-  color: rgb(5, 5, 5); /* لون النص الأبيض */
-  padding: 10px 20px; /* التباعد الداخلي للزر */
-  border: none; /* إزالة الحدود */
-  border-radius: 5px; /* حواف مستديرة للزر */
-  cursor: auto; /* تغيير مؤشر الفأرة إلى اليد */
-  font-size: 16px; /* حجم النص في الزر */
-  font-weight: bold; /* الخط غامق في الزر */
-  width: 100%; /* زر الإرسال يملأ العرض */
+  color: rgb(5, 5, 5);
+  padding: 10px 20px; 
+  border: none; 
+  border-radius: 5px;
+  cursor: auto; 
+  font-size: 16px; 
+  font-weight: bold; 
+  width: 100%; 
 }
 .checkbox-custom {
-      left: 7px; /* موضع العلامة */
-    top: 3px; /* موضع العلامة */
-  width: 15px; /* عرض الـ checkbox */
-  height: 20px; /* ارتفاع الـ checkbox */
-  transform: scale(1.5); /* تغيير الحجم */
-  margin-right: 10px; /* تباعد بين الـ checkbox والنص */
-  cursor: pointer; /* تغيير شكل المؤشر عند التمرير فوق الـ checkbox */
+      left: 7px; 
+    top: 3px; 
+  width: 15px; 
+  height: 20px; 
+  transform: scale(1.5); 
+  margin-right: 10px; 
+  cursor: pointer; 
 }
 
 /* General button styles */
 .kan {
-  background-color: gray; /* Green background */
-  color: white; /* White text */
-  border: none; /* No border */
-  padding: 10px 15px; /* Top and bottom padding, left and right padding */
-  text-align: center; /* Center text */
-  text-decoration: none; /* No underline */
-  display: inline-block; /* Allow margin and padding */
-  font-size: 16px; /* Font size */
-  cursor: pointer; /* Pointer cursor on hover */
-  border-radius: 5px; /* Rounded corners */
-  transition: background-color 0.3s; /* Smooth transition */
+  background-color: gray;
+  color: white;
+  border: none; 
+  padding: 10px 15px;
+  text-align: center; 
+  text-decoration: none; 
+  display: inline-block; 
+  font-size: 16px; 
+  cursor: pointer; 
+  border-radius: 5px; 
+  transition: background-color 0.3s; 
 }
 
-/* Hover effect */
+
 .kan:hover {
-  background-color: rgb(35, 99, 134); /* Darker green on hover */
+  background-color: rgb(35, 99, 134); 
 }
 
-/* Disabled button styles */
+
 .kan:disabled {
-  background-color: #ccc; /* Gray background */
-  color: #666; /* Darker text */
-  cursor: not-allowed; /* Not-allowed cursor */
+  background-color: 
+  color: #666; 
+  cursor: not-allowed; 
 }
 
-/* Focus effect for accessibility */
+
 .kan:focus {
-  outline: none; /* Remove default focus outline */
-  box-shadow: 0 0 5px rgb(82, 153, 211); /* Blue shadow for focus */
+  outline: none; 
+  box-shadow: 0 0 5px rgb(82, 153, 211); 
 }
 
 
 .form {
-  font-size: 15px; /* حجم الخط مناسب */
-  font-family: Arial, sans-serif; /* خط بسيط وسهل القراءة */
-  background-color: #f9f9f9; /* خلفية فاتحة للنموذج */
-  padding: 50px; /* تباعد داخلي مناسب */
-  margin: 100px auto; /* تباعد خارجي ووسط */
-  max-width: 500px; /* الحد الأقصى لعرض النموذج */
-  border-radius: 10px; /* حواف مستديرة */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* ظل خفيف للنموذج */
-  border: 1px solid #ddd; /* حدود خفيفة */
+  font-size: 15px; 
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  padding: 50px; 
+  margin: 100px auto; 
+  max-width: 500px;
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd; 
   background-color:rgb(39, 76, 131);
-  font-weight: bold; /* الخط غامق */
+  font-weight: bold; 
   color: #ddd;
 
 }
