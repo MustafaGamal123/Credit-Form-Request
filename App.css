@@ -1,0 +1,151 @@
+
+body {
+  background-color: #021953;
+ }
+ .select-style {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+/* تنسيق الـ option */
+.select-style option {
+  padding: 10px;
+  font-size: 16px;
+}
+ /* styles.css */
+.modal-overlay {
+  position: fixed; /* تأمين العنصر في موضع ثابت */
+  top: 0; /* من أعلى الصفحة */
+  left: 0; /* من يسار الصفحة */
+  width: 100%; /* عرض كامل الصفحة */
+  height: 100%; /* ارتفاع كامل الصفحة */
+  background-color: rgba(0, 0, 0, 0.5); /* خلفية شفافة */
+  display: flex; /* استخدام الفليكس لجعل العناصر في المنتصف */
+  justify-content: center; /* توسيط أفقي */
+  align-items: center; /* توسيط عمودي */
+  z-index: 999; /* تأكد من أن العنصر فوق العناصر الأخرى */
+}
+
+.modal-content {
+  background: white; /* خلفية العنصر */
+  padding: 20px; /* تباعد داخل العنصر */
+  border-radius: 8px; /* زوايا مدورة */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* ظل لجعل العنصر يبرز */
+  text-align: center; /* محاذاة النص في الوسط */
+}
+
+.jan {
+  color: rgb(5, 5, 5); /* لون النص الأبيض */
+  padding: 10px 20px; /* التباعد الداخلي للزر */
+  border: none; /* إزالة الحدود */
+  border-radius: 5px; /* حواف مستديرة للزر */
+  cursor: auto; /* تغيير مؤشر الفأرة إلى اليد */
+  font-size: 16px; /* حجم النص في الزر */
+  font-weight: bold; /* الخط غامق في الزر */
+  width: 100%; /* زر الإرسال يملأ العرض */
+}
+.checkbox-custom {
+      left: 7px; /* موضع العلامة */
+    top: 3px; /* موضع العلامة */
+  width: 15px; /* عرض الـ checkbox */
+  height: 20px; /* ارتفاع الـ checkbox */
+  transform: scale(1.5); /* تغيير الحجم */
+  margin-right: 10px; /* تباعد بين الـ checkbox والنص */
+  cursor: pointer; /* تغيير شكل المؤشر عند التمرير فوق الـ checkbox */
+}
+
+/* General button styles */
+.kan {
+  background-color: gray; /* Green background */
+  color: white; /* White text */
+  border: none; /* No border */
+  padding: 10px 15px; /* Top and bottom padding, left and right padding */
+  text-align: center; /* Center text */
+  text-decoration: none; /* No underline */
+  display: inline-block; /* Allow margin and padding */
+  font-size: 16px; /* Font size */
+  cursor: pointer; /* Pointer cursor on hover */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+/* Hover effect */
+.kan:hover {
+  background-color: rgb(35, 99, 134); /* Darker green on hover */
+}
+
+/* Disabled button styles */
+.kan:disabled {
+  background-color: #ccc; /* Gray background */
+  color: #666; /* Darker text */
+  cursor: not-allowed; /* Not-allowed cursor */
+}
+
+/* Focus effect for accessibility */
+.kan:focus {
+  outline: none; /* Remove default focus outline */
+  box-shadow: 0 0 5px rgb(82, 153, 211); /* Blue shadow for focus */
+}
+
+
+.form {
+  font-size: 15px; /* حجم الخط مناسب */
+  font-family: Arial, sans-serif; /* خط بسيط وسهل القراءة */
+  background-color: #f9f9f9; /* خلفية فاتحة للنموذج */
+  padding: 50px; /* تباعد داخلي مناسب */
+  margin: 100px auto; /* تباعد خارجي ووسط */
+  max-width: 500px; /* الحد الأقصى لعرض النموذج */
+  border-radius: 10px; /* حواف مستديرة */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* ظل خفيف للنموذج */
+  border: 1px solid #ddd; /* حدود خفيفة */
+  background-color:rgb(39, 76, 131);
+  font-weight: bold; /* الخط غامق */
+  color: #ddd;
+
+}
+
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
