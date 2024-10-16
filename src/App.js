@@ -4,8 +4,8 @@ import MyForm from './MyForm';
 
 function App() {
   useEffect(() => {
-    document.title = "Credit Request"; // تغيير العنوان هنا
-  }, []); // التأثير سيعمل مرة واحدة عند تحميل المكون
+    document.title = "Credit Request"; 
+  }, []); 
 
 
   return (
